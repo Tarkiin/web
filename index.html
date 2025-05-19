@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    
+    <!-- Bootstrap 5 CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+    
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca de Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv">Currículum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero/Inicio -->
+    <section id="inicio" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Hola, soy <span class="highlight">Joel</span></h1>
+                    <h2 class="mb-4">Desarrollador Web Frontend</h2>
+                    <p class="lead mb-4">Transformo ideas en experiencias digitales excepcionales, combinando creatividad y tecnología.</p>
+                    <div class="hero-buttons">
+                        <a href="#portafolio" class="btn btn-primary me-3">Ver Proyectos</a>
+                        <a href="#contacto" class="btn btn-outline-light">Contactarme</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-image-container">
+                        <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg" alt="Imagen Hero" class="img-fluid rounded-3 hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de Mí -->
+    <section id="acerca" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Acerca de Mí</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="about-image-container">
+                        <img src="https://img.freepik.com/free-photo/young-professional-programmer-working-developing-programming-website-software-computer-coding-office_1423-5072.jpg" alt="Mi Foto" class="img-fluid rounded about-image">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3 class="mb-3">Desarrollador Web Frontend</h3>
+                    <p class="mb-4">Con más de X años de experiencia en el desarrollo web frontend, me especializo en crear interfaces de usuario atractivas, intuitivas y altamente funcionales. Mi enfoque combina habilidades técnicas sólidas con un ojo detallista para el diseño y la experiencia de usuario.</p>
+                    
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="about-info">
+                                <i class="fas fa-user me-2"></i> <strong>Nombre:</strong> Tu Nombre Completo
+                            </div>
+                            <div class="about-info">
+                                <i class="fas fa-map-marker-alt me-2"></i> <strong>Ubicación:</strong> Tu Ciudad, País
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-info">
+                                <i class="fas fa-envelope me-2"></i> <strong>Email:</strong> tu.email@ejemplo.com
+                            </div>
+                            <div class="about-info">
+                                <i class="fas fa-briefcase me-2"></i> <strong>Disponible para:</strong> Proyectos freelance
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4 class="mb-3">Mis habilidades principales</h4>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>HTML5 / CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>JavaScript / TypeScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>React / Vue.js</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="d-flex justify-content-between">
+                                    <span>UI/UX Design</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section id="portafolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Mi Portafolio</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Explora algunos de mis proyectos recientes</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Proyecto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="https://img.freepik.com/free-photo/online-shopping-concept-with-laptop_23-2149399179.jpg" class="card-img-top" alt="Proyecto 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Ver Proyecto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-link" title="Ver Código"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicación Web E-commerce</h5>
+                            <p class="card-text">Desarrollo frontend completo de una tienda online moderna con carrito de compras, gestión de usuarios y pasarela de pagos.</p>
+                            <div class="portfolio-tags">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-secondary">Redux</span>
+                                <span class="badge bg-info">Stripe API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="https://img.freepik.com/free-photo/business-analytics-dashboard-computer-screen_53876-124977.jpg" class="card-img-top" alt="Proyecto 2">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Ver Proyecto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-link" title="Ver Código"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dashboard Analítico</h5>
+                            <p class="card-text">Panel de control para visualización de datos con múltiples gráficos interactivos y opciones de filtrado avanzadas.</p>
+                            <div class="portfolio-tags">
+                                <span class="badge bg-primary">Vue.js</span>
+                                <span class="badge bg-secondary">D3.js</span>
+                                <span class="badge bg-info">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="https://img.freepik.com/free-photo/close-up-task-list-smartphone-screen_23-2149309649.jpg" class="card-img-top" alt="Proyecto 3">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Ver Proyecto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-link" title="Ver Código"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicación de Gestión de Tareas</h5>
+                            <p class="card-text">Aplicación web para organizar tareas con sistema de drag-and-drop, notificaciones y sincronización entre dispositivos.</p>
+                            <div class="portfolio-tags">
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-info">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card portfolio-card h-100">
+                        <div class="portfolio-img-container">
+                            <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg" class="card-img-top" alt="Proyecto 4">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Ver Proyecto"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-link" title="Ver Código"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Rediseño de Sitio Corporativo</h5>
+                            <p class="card-text">Renovación completa de un sitio web empresarial con enfoque en la experiencia de usuario, optimización SEO y rendimiento.</p>
+                            <div class="portfolio-tags">
+                                <span class="badge bg-primary">HTML5</span>
+                                <span class="badge bg-secondary">CSS3</span>
+                                <span class="badge bg-info">WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de CV/Resume -->
+    <section id="cv" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Mi Currículum</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Mi trayectoria profesional y académica</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Experiencia Profesional</h3>
+                    
+                    <div class="resume-item">
+                        <h4>Desarrollador Frontend Senior</h4>
+                        <h5>2021 - Presente</h5>
+                        <p class="resume-company"><em>Empresa Innovadora, Ciudad</em></p>
+                        <ul>
+                            <li>Desarrollo de aplicaciones web modernas utilizando React, TypeScript y GraphQL.</li>
+                            <li>Colaboración con equipos de diseño UI/UX para implementar interfaces responsivas.</li>
+                            <li>Optimización de rendimiento y accesibilidad en plataformas de alto tráfico.</li>
+                            <li>Mentorización de desarrolladores junior y liderazgo técnico de proyectos.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Desarrollador Frontend</h4>
+                        <h5>2018 - 2021</h5>
+                        <p class="resume-company"><em>Agencia Digital, Ciudad</em></p>
+                        <ul>
+                            <li>Desarrollo frontend para múltiples clientes utilizando HTML5, CSS3, JavaScript.</li>
+                            <li>Implementación de diseños responsivos con frameworks como Bootstrap y Tailwind.</li>
+                            <li>Integración de APIs REST y optimización de experiencia de usuario.</li>
+                            <li>Trabajo colaborativo con diseñadores, UX y backend developers en metodología ágil.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Desarrollador Web Junior</h4>
+                        <h5>2016 - 2018</h5>
+                        <p class="resume-company"><em>Empresa Tecnológica, Ciudad</em></p>
+                        <ul>
+                            <li>Desarrollo de sitios web corporativos responsivos.</li>
+                            <li>Mantenimiento y actualización de portales existentes.</li>
+                            <li>Implementación de soluciones personalizadas para clientes.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Educación</h3>
+                    
+                    <div class="resume-item">
+                        <h4>Máster en Desarrollo Web Frontend</h4>
+                        <h5>2015 - 2016</h5>
+                        <p class="resume-company"><em>Universidad Tecnológica, Ciudad</em></p>
+                        <p>Especialización en tecnologías modernas de desarrollo web, diseño UI/UX y experiencia de usuario.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>Licenciatura en Informática</h4>
+                        <h5>2011 - 2015</h5>
+                        <p class="resume-company"><em>Universidad Nacional, Ciudad</em></p>
+                        <p>Formación en fundamentos de programación, bases de datos, redes y desarrollo de software.</p>
+                    </div>
+                    
+                    <h3 class="resume-title mt-5">Certificaciones</h3>
+                    
+                    <div class="resume-item">
+                        <h4>Frontend Developer Certification</h4>
+                        <h5>2019</h5>
+                        <p class="resume-company"><em>Google</em></p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>React Advanced Patterns</h4>
+                        <h5>2020</h5>
+                        <p class="resume-company"><em>Frontend Masters</em></p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <h4>UI/UX Design Foundations</h4>
+                        <h5>2021</h5>
+                        <p class="resume-company"><em>Interaction Design Foundation</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-primary">Descargar CV completo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Contacto</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow-lg border-0 overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-md-5 bg-primary text-white d-flex flex-column p-4 p-md-5">
+                                <h3 class="fw-bold mb-4"><i class="fas fa-id-card me-2"></i>Información de Contacto</h3>
+                                <p class="mb-4">Estoy disponible para proyectos freelance, colaboraciones y oportunidades laborales. ¡No dudes en contactarme!</p>
+                                
+                                <div class="contact-item d-flex align-items-center mb-3">
+                                    <div class="contact-icon-alt me-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Ubicación</h6>
+                                        <p class="mb-0 text-white-50">Tu Ciudad, Tu País</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item d-flex align-items-center mb-3">
+                                    <div class="contact-icon-alt me-3">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Email</h6>
+                                        <p class="mb-0 text-white-50">tu.email@ejemplo.com</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item d-flex align-items-center mb-3">
+                                    <div class="contact-icon-alt me-3">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Teléfono</h6>
+                                        <p class="mb-0 text-white-50">+XX XXX XXX XXX</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item d-flex align-items-center mb-4">
+                                    <div class="contact-icon-alt me-3">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Sitio Web</h6>
+                                        <p class="mb-0 text-white-50">www.tusitio.com</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-auto">
+                                    <h6 class="mb-3">Sígueme en redes</h6>
+                                    <div class="social-links social-links-alt">
+                                        <a href="#" class="social-link-alt" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="social-link-alt" title="GitHub"><i class="fab fa-github"></i></a>
+                                        <a href="#" class="social-link-alt" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-link-alt" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-7 p-4 p-md-5">
+                                <h3 class="fw-bold mb-4"><i class="fas fa-paper-plane me-2"></i>Envíame un mensaje</h3>
+                                <form id="contactForm" class="contact-form">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                                                <label for="name">Nombre</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="email" placeholder="Tu email" required>
+                                                <label for="email">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="subject" placeholder="Asunto del mensaje" required>
+                                        <label for="subject">Asunto</label>
+                                    </div>
+                                    
+                                    <div class="form-floating mb-4">
+                                        <textarea class="form-control" id="message" style="height: 150px" placeholder="Tu mensaje" required></textarea>
+                                        <label for="message">Mensaje</label>
+                                    </div>
+                                    
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-pill">
+                                            <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Joel. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <a href="#" class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Bootstrap Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript personalizado -->
+    <script src="script.js"></script>
+</body>
+</html> 
